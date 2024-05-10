@@ -4,6 +4,7 @@ import flet as ft
 #Criar função principal do App
 
 def main(pagina):
+    
     #funcionalidades
     
     
@@ -76,4 +77,4 @@ def main(pagina):
     
 #Iniciar o APP
 
-ft.app(main, view=ft.WEB_BROWSER)
+ft.app(target = main)
